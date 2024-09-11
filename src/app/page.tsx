@@ -16,7 +16,7 @@ export default function Home() {
 function HeroSection() {
   return (
     <section
-      className="relative w-full h-screen bg-cover bg-center"
+      className="relative w-full h-screen bg-cover bg-center py-16 px-6"
       style={{ backgroundImage: "url(/images/fragments-bg.jpg)" }}
     >
       <div className="absolute inset-0 bg-black opacity-60"></div>
