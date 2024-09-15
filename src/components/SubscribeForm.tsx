@@ -72,6 +72,7 @@ export default function SubscribeForm() {
 
   return (
     <form
+      id="subscribe"
       className="max-w-md mx-auto"
       onKeyDown={(e: React.KeyboardEvent<HTMLFormElement>) => {
         if (e.code === "Enter") {

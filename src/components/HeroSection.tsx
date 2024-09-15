@@ -48,7 +48,7 @@ export default function HeroSection() {
           >
             <Link
               href="#act-one"
-              className="bg-yellow-500 text-white hover:bg-yellow-600 transition-color duration-300 ease-in-out border-0 rounded-xl p-4"
+              className="bg-yellow-500 text-black  font-bold hover:bg-yellow-600 transition-color duration-300 ease-in-out border-0 rounded-xl p-4"
             >
               Act One: The Land of Marona
             </Link>
