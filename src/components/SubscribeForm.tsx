@@ -5,14 +5,17 @@ import { validateSchema } from "@/lib/validation/validate";
 import { useState } from "react";
 import Loader from "./Loader";
 import { ResponseCode } from "@/lib/constants";
+import { useReCaptcha } from "next-recaptcha-v3";
 
 interface FormErrors {
   email?: string;
+  token?: string;
   general?: string;
 }
 
 const defaultFormFields = {
   email: "" as string,
+  token: "" as string,
 };
 
 export default function SubscribeForm() {
@@ -20,6 +23,7 @@ export default function SubscribeForm() {
   const [formErrors, setFormErrors] = useState<FormErrors>({});
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [successMessage, setSuccessMessage] = useState<string>("");
+  const { executeRecaptcha } = useReCaptcha();
 
   async function handleSubmit(): Promise<void> {
     const newErrors: any = {};
@@ -34,10 +38,12 @@ export default function SubscribeForm() {
     setFormErrors(newErrors);
 
     if (Object.keys(newErrors).length === 0) {
+      const token = await executeRecaptcha("form_submit");
+
       setIsLoading(true);
       const response = await fetch(`/api/subscribe`, {
         method: "POST",
-        body: JSON.stringify(formFields),
+        body: JSON.stringify({ ...formFields, token }),
       });
 
       try {
@@ -65,7 +71,15 @@ export default function SubscribeForm() {
   }
 
   return (
-    <form className="max-w-md mx-auto">
+    <form
+      className="max-w-md mx-auto"
+      onKeyDown={(e: React.KeyboardEvent<HTMLFormElement>) => {
+        if (e.code === "Enter") {
+          e.preventDefault();
+          handleSubmit();
+        }
+      }}
+    >
       {isLoading && <Loader />}
       <input
         type="email"

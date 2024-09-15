@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import { ReCaptchaProvider } from "next-recaptcha-v3";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -27,11 +28,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
-      </body>
+      <ReCaptchaProvider reCaptchaKey={process.env.RECAPTCHA_SITE_KEY}>
+        <body
+          className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-900 text-white`}
+        >
+          {children}
+        </body>
+      </ReCaptchaProvider>
     </html>
   );
 }

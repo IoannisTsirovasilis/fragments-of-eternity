@@ -1,38 +1,20 @@
 import { HEADERS, ResponseCode } from "@/lib/constants";
-import { subscribeFormSchema } from "@/lib/subscribeSchema";
 import { HTTPResponse } from "@/lib/httpResponse";
-import { sendEmail } from "@/lib/services/mailService";
 import { validateRequest } from "@/lib/validation/validate";
 import { NextRequest, NextResponse } from "next/server";
-import {
-  addSubscriber,
-  verifyReCaptcha,
-} from "@/lib/services/subscriberService";
-import { BadRequestError } from "@/lib/errors/BadRequestError";
+import { unsubscribeSubscriber } from "@/lib/services/subscriberService";
+import { unsubscribeSchema } from "@/lib/unsubscribeSchema";
 
 export async function POST(req: NextRequest) {
   try {
-    const fields = await validateRequest(req, subscribeFormSchema);
+    const fields = await validateRequest(req, unsubscribeSchema);
 
-    const result = await verifyReCaptcha(fields.token);
-
-    if (!result) {
-      throw new BadRequestError("ReCaptcha verification failed");
-    }
-
-    await addSubscriber(fields.email);
-
-    await sendEmail({
-      subject: `FOE New Subscriber: ${fields.email}`,
-      fromEmail: String(process.env.GMAIL_EMAIL),
-      toEmail: String(process.env.GMAIL_EMAIL),
-      html: "",
-    });
+    await unsubscribeSubscriber(fields.id, fields.email);
 
     const httpResponse: HTTPResponse = {
       code: ResponseCode.Ok,
       status: 200,
-      data: { message: "Email sent successfully" },
+      data: { message: "Unsubscribed successfully" },
     };
 
     return NextResponse.json(httpResponse, {

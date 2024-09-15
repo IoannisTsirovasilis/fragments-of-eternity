@@ -5,10 +5,7 @@ import { motion } from "framer-motion";
 
 export default function HeroSection() {
   return (
-    <section
-      className="relative w-full h-screen bg-cover bg-center py-16 px-6"
-      style={{ backgroundImage: "url(/images/fragments-bg.jpg)" }}
-    >
+    <section className="relative w-full h-screen bg-cover bg-center py-16 px-6">
       <div className="absolute inset-0 bg-black opacity-60"></div>
       <div className="relative flex items-center justify-center h-full">
         <div className="text-center">

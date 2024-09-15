@@ -1,6 +1,6 @@
 import Joi from "joi";
 
-export const subscribeFormSchema = Joi.object({
+export const unsubscribeSchema = Joi.object({
   email: Joi.string()
     .trim()
     .lowercase()
@@ -14,5 +14,5 @@ export const subscribeFormSchema = Joi.object({
       "string.email": "Invalid Email format",
       "any.required": "The Email is required",
     }),
-  token: Joi.string().allow(""),
+  id: Joi.string(),
 });
