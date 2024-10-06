@@ -9,6 +9,12 @@ export default function Navbar() {
         </div>
         <div>
           <Link
+            href="/assets"
+            className="text-yellow-500 font-bold hover:text-yellow-600 transition-color duration-300 ease-in-out border-0 rounded-xl p-4"
+          >
+            Assets
+          </Link>
+          <Link
             href="#subscribe"
             className="bg-yellow-500 text-black  font-bold hover:bg-yellow-600 transition-color duration-300 ease-in-out border-0 rounded-xl p-4"
           >
