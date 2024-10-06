@@ -3,6 +3,8 @@ import localFont from "next/font/local";
 import "./globals.css";
 import { ReCaptchaProvider } from "next-recaptcha-v3";
 import Navbar from "@/components/Navbar";
+import SubscribeSection from "@/components/SubscribeSection";
+import Footer from "@/components/Footer";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -34,7 +36,9 @@ export default function RootLayout({
           className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-900 text-white`}
         >
           <Navbar />
-          {children}
+          <div className="min-h-screen">{children}</div>
+          <SubscribeSection />
+          <Footer />
         </body>
       </ReCaptchaProvider>
     </html>

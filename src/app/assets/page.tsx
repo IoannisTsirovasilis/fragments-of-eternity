@@ -3,7 +3,10 @@ import Link from "next/link";
 
 export default function Assets() {
   return (
-    <section className="py-20 px-6 bg-gray-800 text-white" id="act-one">
+    <section
+      className="py-20 px-6 bg-gray-800 text-white h-screen"
+      id="act-one"
+    >
       <div className="container mx-auto">
         <h2 className="text-4xl font-medieval text-yellow-500 text-center mb-8">
           Assets
