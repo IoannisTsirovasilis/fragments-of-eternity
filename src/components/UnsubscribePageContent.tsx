@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import { ResponseCode } from "@/lib/constants";
 import Loader from "./Loader";
+import H1 from "./common/H1";
 
 const successMessage = "You have been successfully unsubscribed.";
 const errorMessage = "An error occurred. Please try again later.";
@@ -48,7 +49,7 @@ export default function UnsubscribePageContent() {
     <div className="min-h-screen flex items-center justify-center">
       {isLoading && <Loader />}
       <div className="text-center">
-        <h1 className="text-4xl text-yellow-500 mb-8">Unsubscribe</h1>
+        <H1>Unsubscribe</H1>
         <p className="text-gray-300">{message}</p>
       </div>
     </div>

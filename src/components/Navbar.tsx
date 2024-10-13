@@ -4,19 +4,19 @@ export default function Navbar() {
   return (
     <nav className="bg-gray-900 p-4 fixed w-full z-10 top-0 left-0">
       <div className="container mx-auto flex justify-between items-center">
-        <div className="text-yellow-500 text-2xl">
+        <div className="text-primary-500 text-2xl">
           <Link href="/">Fragments of Eternity</Link>
         </div>
         <div>
           <Link
             href="/assets"
-            className="text-yellow-500 font-bold hover:text-yellow-600 transition-color duration-300 ease-in-out border-0 rounded-xl p-4"
+            className="text-primary-500 font-bold hover:text-primary-600 transition-color duration-300 ease-in-out border-0 rounded-xl p-4"
           >
             Assets
           </Link>
           <Link
             href="#subscribe"
-            className="bg-yellow-500 text-black  font-bold hover:bg-yellow-600 transition-color duration-300 ease-in-out border-0 rounded-xl p-4"
+            className="bg-primary-500 text-black  font-bold hover:bg-primary-600 transition-color duration-300 ease-in-out border-0 rounded-xl p-4"
           >
             Subscribe
           </Link>

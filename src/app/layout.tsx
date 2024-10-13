@@ -28,7 +28,7 @@ export default function RootLayout({
     <html lang="en">
       <ReCaptchaProvider reCaptchaKey={process.env.RECAPTCHA_SITE_KEY}>
         <body
-          className={`${medievalSharp.className} antialiased bg-gray-900 text-white`}
+          className={`${medievalSharp.className} antialiased bg-gray-800 text-white`}
         >
           <Navbar />
           <div className="min-h-screen">{children}</div>

@@ -109,7 +109,7 @@ export default function SubscribeForm() {
       <button
         type="button"
         onClick={handleSubmit}
-        className="mt-4 px-6 py-3 bg-yellow-500 text-black font-bold rounded-lg hover:bg-yellow-600 transition"
+        className="mt-4 px-6 py-3 bg-primary-500 text-black font-bold rounded-lg hover:bg-primary-600 transition"
       >
         Subscribe
       </button>

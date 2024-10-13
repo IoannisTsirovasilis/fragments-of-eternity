@@ -1,9 +1,12 @@
 /* eslint-disable max-lines */
 /* eslint-disable max-lines-per-function */
+
+import H1 from "@/components/common/H1";
+
 export default function PrivacyPolicy() {
   return (
     <section className="p-6 space-y-2">
-      <h1>Privacy Policy</h1>
+      <H1>Privacy Policy</H1>
       <p>Updated at 2024-09-15</p>
 
       <p>
@@ -27,7 +30,7 @@ export default function PrivacyPolicy() {
         .
       </p>
 
-      <h1>Definitions and key terms</h1>
+      <H1>Definitions and key terms</H1>
       <p>
         To help explain things as clearly as possible in this Privacy Policy,
         every time any of these terms are referenced, are strictly defined as:
@@ -95,7 +98,7 @@ export default function PrivacyPolicy() {
           to use the Services.
         </li>
       </ul>
-      <h1>What Information Do We Collect?</h1>
+      <H1>What Information Do We Collect?</H1>
       <p>
         We collect information from you when you visit our website, register on
         our site, place an order, subscribe to our newsletter, respond to a
@@ -106,7 +109,7 @@ export default function PrivacyPolicy() {
         <li>Email Addresses</li>
       </ul>
 
-      <h1>How Do We Use The Information We Collect?</h1>
+      <H1>How Do We Use The Information We Collect?</H1>
       <p>
         Any of the information we collect from you may be used in one of the
         following ways:
@@ -132,10 +135,10 @@ export default function PrivacyPolicy() {
         <li>To send periodic emails</li>
       </ul>
 
-      <h1>
+      <H1>
         When does Fragments of Eternity use end user information from third
         parties?
-      </h1>
+      </H1>
       <p>
         Fragments of Eternity will collect End User Data necessary to provide
         the Fragments of Eternity services to our customers.
@@ -149,10 +152,10 @@ export default function PrivacyPolicy() {
         websites and changing your privacy settings.
       </p>
 
-      <h1>
+      <H1>
         When does Fragments of Eternity use customer information from third
         parties?
-      </h1>
+      </H1>
       <p>
         We receive some information from the third parties when you contact us.
         For example, when you submit your email address to us to show interest
@@ -164,7 +167,7 @@ export default function PrivacyPolicy() {
         these websites and changing your privacy settings.
       </p>
 
-      <h1>Do we share the information we collect with third parties?</h1>
+      <H1>Do we share the information we collect with third parties?</H1>
       <p>
         We may share the information that we collect, both personal and
         non-personal, with third parties such as advertisers, contest sponsors,
@@ -204,16 +207,16 @@ export default function PrivacyPolicy() {
         court orders, laws, rules and regulations.
       </p>
 
-      <h1>
+      <H1>
         Where and when is information collected from customers and end users?
-      </h1>
+      </H1>
       <p>
         Fragments of Eternity will collect personal information that you submit
         to us. We may also receive personal information about you from third
         parties as described above.
       </p>
 
-      <h1>How Do We Use Your Email Address?</h1>
+      <H1>How Do We Use Your Email Address?</H1>
       <p>
         By submitting your email address on this website, you agree to receive
         emails from us. You can cancel your participation in any of these email
@@ -234,7 +237,7 @@ export default function PrivacyPolicy() {
         detailed unsubscribe instructions at the bottom of each email.
       </p>
 
-      <h1>How Long Do We Keep Your Information?</h1>
+      <H1>How Long Do We Keep Your Information?</H1>
       <p>
         We keep your information only so long as we need it to provide Fragments
         of Eternity to you and fulfill the purposes described in this policy.
@@ -245,7 +248,7 @@ export default function PrivacyPolicy() {
         systems or depersonalize it so that we can&apos;t identify you.
       </p>
 
-      <h1>How Do We Protect Your Information?</h1>
+      <H1>How Do We Protect Your Information?</H1>
       <p>
         We implement a variety of security measures to maintain the safety of
         your personal information when you place an order or enter, submit, or
@@ -263,7 +266,7 @@ export default function PrivacyPolicy() {
         managerial safeguards.
       </p>
 
-      <h1>Could my information be transferred to other countries?</h1>
+      <H1>Could my information be transferred to other countries?</H1>
       <p>
         Fragments of Eternity is incorporated in Greece. Information collected
         via our website, through direct interactions with you, or from use of
@@ -276,10 +279,10 @@ export default function PrivacyPolicy() {
         and hosting of such information.
       </p>
 
-      <h1>
+      <H1>
         Is the information collected through the Fragments of Eternity Service
         secure?
-      </h1>
+      </H1>
       <p>
         We take precautions to protect the security of your information. We have
         physical, electronic, and managerial procedures to help safeguard,
@@ -294,7 +297,7 @@ export default function PrivacyPolicy() {
         compliance with that duty.
       </p>
 
-      <h1>Can I update or correct my information?</h1>
+      <H1>Can I update or correct my information?</H1>
       <p>
         The rights you have to request updates or corrections to the information
         Fragments of Eternity collects depend on your relationship with
@@ -334,7 +337,7 @@ export default function PrivacyPolicy() {
         information we have about you, you may do so by contacting the
         organization of which you are a customer.
       </p>
-      <h1>Sale of Business</h1>
+      <H1>Sale of Business</H1>
       <p>
         We reserve the right to transfer information to a third party in the
         event of a sale, merger or other transfer of all or substantially all of
@@ -347,7 +350,7 @@ export default function PrivacyPolicy() {
         of this Privacy Policy.
       </p>
 
-      <h1>Affiliates</h1>
+      <H1>Affiliates</H1>
       <p>
         We may disclose information (including personal information) about you
         to our Corporate Affiliates. For purposes of this Privacy Policy,
@@ -359,7 +362,7 @@ export default function PrivacyPolicy() {
         with the terms of this Privacy Policy.
       </p>
 
-      <h1>Governing Law</h1>
+      <H1>Governing Law</H1>
       <p>
         This Privacy Policy is governed by the laws of Greece without regard to
         its conflict of laws provision. You consent to the exclusive
@@ -383,7 +386,7 @@ export default function PrivacyPolicy() {
         will mean that you accept those changes.
       </p>
 
-      <h1>Your Consent</h1>
+      <H1>Your Consent</H1>
       <p>
         We&apos;ve updated our Privacy Policy to provide you with complete
         transparency into what is being set when you visit our site and how
@@ -392,7 +395,7 @@ export default function PrivacyPolicy() {
         its terms.
       </p>
 
-      <h1>Links to Other Websites</h1>
+      <H1>Links to Other Websites</H1>
       <p>
         This Privacy Policy applies only to the Services. The Services may
         contain links to other websites not operated or controlled by Fragments
@@ -406,7 +409,7 @@ export default function PrivacyPolicy() {
         policies. Such third parties may use their own cookies or other methods
         to collect information about you.
       </p>
-      <h1>Cookies</h1>
+      <H1>Cookies</H1>
       <p>
         Fragments of Eternity uses &quot;Cookies&quot; to identify the areas of
         our website that you have visited. A Cookie is a small piece of data
@@ -422,7 +425,7 @@ export default function PrivacyPolicy() {
         Information in Cookies.
       </p>
 
-      <h1>Blocking and disabling cookies and similar technologies</h1>
+      <H1>Blocking and disabling cookies and similar technologies</H1>
       <p>
         Wherever you&apos;re located you may also set your browser to block
         cookies and similar technologies, but this action may block our
@@ -436,7 +439,7 @@ export default function PrivacyPolicy() {
         browser, you should visit your browser&apos;s help menu for more
         information.
       </p>
-      <h1>Kids&apos; Privacy</h1>
+      <H1>Kids&apos; Privacy</H1>
       <p>
         We collect information from kids under the age of 13 just to better our
         services. If You are a parent or guardian and You are aware that Your
@@ -445,7 +448,7 @@ export default function PrivacyPolicy() {
         anyone under the age of 13 without verification of parental consent, We
         take steps to remove that information from Our servers.
       </p>
-      <h1>Changes To Our Privacy Policy</h1>
+      <H1>Changes To Our Privacy Policy</H1>
       <p>
         We may change our Service and policies, and we may need to make changes
         to this Privacy Policy so that they accurately reflect our Service and
@@ -457,7 +460,7 @@ export default function PrivacyPolicy() {
         updated Privacy Policy, you can delete your account.
       </p>
 
-      <h1>Third-Party Services</h1>
+      <H1>Third-Party Services</H1>
       <p>
         We may display, include or make available third-party content (including
         data, information, applications and other products services) or provide
@@ -477,7 +480,7 @@ export default function PrivacyPolicy() {
         convenience to you and you access and use them entirely at your own risk
         and subject to such third parties&apos; terms and conditions.
       </p>
-      <h1>Tracking Technologies</h1>
+      <H1>Tracking Technologies</H1>
       <ul>
         <li>
           Cookies
@@ -502,7 +505,7 @@ export default function PrivacyPolicy() {
           </p>
         </li>
       </ul>
-      <h1>Information about General Data Protection Regulation (GDPR)</h1>
+      <H1>Information about General Data Protection Regulation (GDPR)</H1>
       <p>
         We may be collecting and using information from you if you are from the
         European Economic Area (EEA), and in this section of our Privacy Policy
@@ -511,7 +514,7 @@ export default function PrivacyPolicy() {
         in the wrong way.
       </p>
 
-      <h1>What is GDPR?</h1>
+      <H1>What is GDPR?</H1>
       <p>
         GDPR is an EU-wide privacy and data protection law that regulates how EU
         residents&apos; data is protected by companies and enhances the control
@@ -524,7 +527,7 @@ export default function PrivacyPolicy() {
         GDPR controls as our baseline standard for all our operations worldwide.
       </p>
 
-      <h1>What is personal data?</h1>
+      <H1>What is personal data?</H1>
       <p>
         Any data that relates to an identifiable or identified individual. GDPR
         covers a broad spectrum of information that could be used on its own, or
@@ -557,7 +560,7 @@ export default function PrivacyPolicy() {
         </li>
       </ul>
 
-      <h1>Why is GDPR important?</h1>
+      <H1>Why is GDPR important?</H1>
       <p>
         GDPR adds some new requirements regarding how companies should protect
         individuals&apos; personal data that they collect and process. It also
@@ -569,10 +572,10 @@ export default function PrivacyPolicy() {
         regulation.
       </p>
 
-      <h1>
+      <H1>
         Individual Data Subject&apos;s Rights - Data Access, Portability and
         Deletion
-      </h1>
+      </H1>
       <p>
         We are committed to helping our customers meet the data subject rights
         requirements of GDPR. Fragments of Eternity processes or stores all
@@ -590,7 +593,7 @@ export default function PrivacyPolicy() {
         customers data. Our customer support team is here for you to answer any
         questions you might have about working with the API.
       </p>
-      <h1>California Residents</h1>
+      <H1>California Residents</H1>
       <p>
         The California Consumer Privacy Act (CCPA) requires us to disclose
         categories of Personal Information we collect and how we use it, the
@@ -631,7 +634,7 @@ export default function PrivacyPolicy() {
       </p>
       <p>We do not sell the Personal Information of our users.</p>
       <p>For more information about these rights, please contact us.</p>
-      <h1>California Online Privacy Protection Act (CalOPPA)</h1>
+      <H1>California Online Privacy Protection Act (CalOPPA)</H1>
       <p>
         CalOPPA requires us to disclose categories of Personal Information we
         collect and how we use it, the categories of sources from whom we
@@ -668,7 +671,7 @@ export default function PrivacyPolicy() {
       </p>
       <p>We do not sell the Personal Information of our users.</p>
       <p>For more information about these rights, please contact us.</p>
-      <h1>Contact Us</h1>
+      <H1>Contact Us</H1>
       <p>Don&apos;t hesitate to contact us if you have any questions.</p>
       <ul>
         <li>

@@ -1,12 +1,15 @@
 /* eslint-disable max-lines */
 /* eslint-disable max-lines-per-function */
+
+import H1 from "@/components/common/H1";
+
 export default function TermsAndConditions() {
   return (
     <section className="p-6 space-y-2">
-      <h1>Terms & Conditions</h1>
+      <H1>Terms & Conditions</H1>
       <p>Updated at 2024-09-15</p>
 
-      <h1>General Terms</h1>
+      <H1>General Terms</H1>
       <p>
         By accessing and placing an order with Fragments of Eternity, you
         confirm that you are in agreement with and bound by the terms of service
@@ -35,7 +38,7 @@ export default function TermsAndConditions() {
         .
       </p>
 
-      <h1>License</h1>
+      <H1>License</H1>
       <p>
         Fragments of Eternity grants you a revocable, non-exclusive,
         non-transferable, limited license to download, install and use the
@@ -59,7 +62,7 @@ export default function TermsAndConditions() {
         your account or block access to your account without notice.
       </p>
 
-      <h1>Definitions and key terms</h1>
+      <H1>Definitions and key terms</H1>
       <p>
         To help explain things as clearly as possible in this Terms &
         Conditions, every time any of these terms are referenced, are strictly
@@ -105,7 +108,7 @@ export default function TermsAndConditions() {
         </li>
       </ul>
 
-      <h1>Restrictions</h1>
+      <H1>Restrictions</H1>
       <p>You agree not to, and you will not permit others to:</p>
       <ul>
         <li>
@@ -123,7 +126,7 @@ export default function TermsAndConditions() {
           partners, suppliers or the licensors of the website.
         </li>
       </ul>
-      <h1>Return and Refund Policy</h1>
+      <H1>Return and Refund Policy</H1>
       <p>
         Thanks for shopping at Fragments of Eternity. We appreciate the fact
         that you like to buy the stuff we build. We also want to make sure you
@@ -144,7 +147,7 @@ export default function TermsAndConditions() {
         discuss any of the issues you are going through with our product.
       </p>
 
-      <h1>Your Suggestions</h1>
+      <H1>Your Suggestions</H1>
       <p>
         Any feedback, comments, ideas, improvements or suggestions
         (collectively, &quot;Suggestions&quot;) provided by you to Fragments of
@@ -157,7 +160,7 @@ export default function TermsAndConditions() {
         credit or any compensation to you.
       </p>
 
-      <h1>Your Consent</h1>
+      <H1>Your Consent</H1>
       <p>
         We&apos;ve updated our Terms & Conditions to provide you with complete
         transparency into what is being set when you visit our site and how
@@ -165,7 +168,7 @@ export default function TermsAndConditions() {
         making a purchase, you hereby consent to our Terms & Conditions.
       </p>
 
-      <h1>Links to Other Websites</h1>
+      <H1>Links to Other Websites</H1>
       <p>
         This Terms & Conditions applies only to the Services. The Services may
         contain links to other websites not operated or controlled by Fragments
@@ -180,7 +183,7 @@ export default function TermsAndConditions() {
         to collect information about you.
       </p>
 
-      <h1>Cookies</h1>
+      <H1>Cookies</H1>
       <p>
         Fragments of Eternity uses &quot;Cookies&quot; to identify the areas of
         our website that you have visited. A Cookie is a small piece of data
@@ -196,7 +199,7 @@ export default function TermsAndConditions() {
         Information in Cookies.
       </p>
 
-      <h1>Changes To Our Terms & Conditions</h1>
+      <H1>Changes To Our Terms & Conditions</H1>
       <p>
         You acknowledge and agree that Fragments of Eternity may stop
         (permanently or temporarily) providing the Service (or any features
@@ -214,14 +217,14 @@ export default function TermsAndConditions() {
         date below.
       </p>
 
-      <h1>Modifications to Our website</h1>
+      <H1>Modifications to Our website</H1>
       <p>
         Fragments of Eternity reserves the right to modify, suspend or
         discontinue, temporarily or permanently, the website or any service to
         which it connects, with or without notice and without liability to you.
       </p>
 
-      <h1>Updates to Our website</h1>
+      <H1>Updates to Our website</H1>
       <p>
         Fragments of Eternity may from time to time provide enhancements or
         improvements to the features/ functionality of the website, which may
@@ -240,7 +243,7 @@ export default function TermsAndConditions() {
         conditions of this Agreement.
       </p>
 
-      <h1>Third-Party Services</h1>
+      <H1>Third-Party Services</H1>
       <p>
         We may display, include or make available third-party content (including
         data, information, applications and other products services) or provide
@@ -261,7 +264,7 @@ export default function TermsAndConditions() {
         and subject to such third parties&apos; terms and conditions.
       </p>
 
-      <h1>Term and Termination</h1>
+      <H1>Term and Termination</H1>
       <p>
         This Agreement shall remain in effect until terminated by you or
         Fragments of Eternity.
@@ -288,7 +291,7 @@ export default function TermsAndConditions() {
         under the present Agreement.
       </p>
 
-      <h1>Copyright Infringement Notice</h1>
+      <H1>Copyright Infringement Notice</H1>
       <p>
         If you are a copyright owner or such owner&apos;s agent and believe any
         material on our website constitutes an infringement on your copyright,
@@ -303,7 +306,7 @@ export default function TermsAndConditions() {
         perjury you are authorized to act on behalf of the owner.
       </p>
 
-      <h1>Indemnification</h1>
+      <H1>Indemnification</H1>
       <p>
         You agree to indemnify and hold Fragments of Eternity and its parents,
         subsidiaries, affiliates, officers, employees, agents, partners and
@@ -313,7 +316,7 @@ export default function TermsAndConditions() {
         regulation; or (c) violation of any right of a third party.
       </p>
 
-      <h1>No Warranties</h1>
+      <H1>No Warranties</H1>
       <p>
         The website is provided to you &quot;AS IS&quot; and &quot;AS
         AVAILABLE&quot; and with all faults and defects without warranty of any
@@ -351,7 +354,7 @@ export default function TermsAndConditions() {
         may not apply to you.
       </p>
 
-      <h1>Limitation of Liability</h1>
+      <H1>Limitation of Liability</H1>
       <p>
         Notwithstanding any damages that you might incur, the entire liability
         of Fragments of Eternity and any of its suppliers under any provision of
@@ -377,7 +380,7 @@ export default function TermsAndConditions() {
         exclusion may not apply to you.
       </p>
 
-      <h1>Severability</h1>
+      <H1>Severability</H1>
       <p>
         If any provision of this Agreement is held to be unenforceable or
         invalid, such provision will be changed and interpreted to accomplish
@@ -402,7 +405,7 @@ export default function TermsAndConditions() {
         ACCRUES. OTHERWISE, SUCH CAUSE OF ACTION IS PERMANENTLY BARRED.
       </p>
 
-      <h1>Waiver</h1>
+      <H1>Waiver</H1>
       <p>
         Except as provided herein, the failure to exercise a right or to require
         performance of an obligation under this Agreement shall not effect a
@@ -420,7 +423,7 @@ export default function TermsAndConditions() {
         terms of this Agreement shall govern.
       </p>
 
-      <h1>Amendments to this Agreement</h1>
+      <H1>Amendments to this Agreement</H1>
       <p>
         Fragments of Eternity reserves the right, at its sole discretion, to
         modify or replace this Agreement at any time. If a revision is material
@@ -435,7 +438,7 @@ export default function TermsAndConditions() {
         Eternity.
       </p>
 
-      <h1>Entire Agreement</h1>
+      <H1>Entire Agreement</H1>
       <p>
         The Agreement constitutes the entire agreement between you and Fragments
         of Eternity regarding your use of the website and supersedes all prior
@@ -449,7 +452,7 @@ export default function TermsAndConditions() {
         purchase.
       </p>
 
-      <h1>Updates to Our Terms</h1>
+      <H1>Updates to Our Terms</H1>
       <p>
         We may change our Service and policies, and we may need to make changes
         to these Terms so that they accurately reflect our Service and policies.
@@ -461,7 +464,7 @@ export default function TermsAndConditions() {
         your account.
       </p>
 
-      <h1>Intellectual Property</h1>
+      <H1>Intellectual Property</H1>
       <p>
         The website and its entire contents, features and functionality
         (including but not limited to all information, software, text, displays,
@@ -476,7 +479,7 @@ export default function TermsAndConditions() {
         Conditions. Any unauthorized use of the material is prohibited.
       </p>
 
-      <h1>Agreement to Arbitrate</h1>
+      <H1>Agreement to Arbitrate</H1>
       <p>
         This section applies to any dispute EXCEPT IT DOESN’T INCLUDE A DISPUTE
         RELATING TO CLAIMS FOR INJUNCTIVE OR EQUITABLE RELIEF REGARDING THE
@@ -489,7 +492,7 @@ export default function TermsAndConditions() {
         allowable under law.
       </p>
 
-      <h1>Notice of Dispute</h1>
+      <H1>Notice of Dispute</H1>
       <p>
         In the event of a dispute, you or Fragments of Eternity must give the
         other a Notice of Dispute, which is a written statement that sets forth
@@ -507,7 +510,7 @@ export default function TermsAndConditions() {
         commence arbitration.
       </p>
 
-      <h1>Binding Arbitration</h1>
+      <H1>Binding Arbitration</H1>
       <p>
         If you and Fragments of Eternity don’t resolve any dispute by informal
         negotiation, any other effort to resolve the dispute will be conducted
@@ -523,7 +526,7 @@ export default function TermsAndConditions() {
         prevailing party shall be borne by the non-prevailing party.
       </p>
 
-      <h1>Submissions and Privacy</h1>
+      <H1>Submissions and Privacy</H1>
       <p>
         In the event that you submit or post any ideas, creative suggestions,
         designs, photographs, information, advertisements, data or proposals,
@@ -539,7 +542,7 @@ export default function TermsAndConditions() {
         such ideas.
       </p>
 
-      <h1>Promotions</h1>
+      <H1>Promotions</H1>
       <p>
         Fragments of Eternity may, from time to time, include contests,
         promotions, sweepstakes, or other activities (“Promotions”) that require
@@ -557,7 +560,7 @@ export default function TermsAndConditions() {
         a part of this Agreement by this reference.
       </p>
 
-      <h1>Typographical Errors</h1>
+      <H1>Typographical Errors</H1>
       <p>
         In the event a product and/or service is listed at an incorrect price or
         with incorrect information due to typographical error, we shall have the
@@ -570,7 +573,7 @@ export default function TermsAndConditions() {
         amount of the charge.
       </p>
 
-      <h1>Miscellaneous</h1>
+      <H1>Miscellaneous</H1>
       <p>
         If for any reason a court of competent jurisdiction finds any provision
         or portion of these Terms & Conditions to be unenforceable, the
@@ -596,7 +599,7 @@ export default function TermsAndConditions() {
         given any legal import.
       </p>
 
-      <h1>Disclaimer</h1>
+      <H1>Disclaimer</H1>
       <p>
         Fragments of Eternity is not responsible for any content, code or any
         other imprecision.
@@ -636,7 +639,7 @@ export default function TermsAndConditions() {
         uninterrupted, uncorrupted, timely, or error-free.
       </p>
 
-      <h1>Contact Us</h1>
+      <H1>Contact Us</H1>
       <p>Don&apos;t hesitate to contact us if you have any questions.</p>
       <ul>
         <li>

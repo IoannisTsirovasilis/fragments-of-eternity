@@ -10,7 +10,7 @@ export default function HeroSection() {
       <div className="relative flex items-center justify-center h-full">
         <div className="text-center">
           <motion.h1
-            className="text-7xl text-yellow-500"
+            className="text-7xl text-primary-500"
             initial={{ opacity: 0, y: -50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
@@ -28,7 +28,7 @@ export default function HeroSection() {
           </motion.p>
 
           <motion.p
-            className="mt-8 text-2xl text-yellow-500"
+            className="mt-8 text-2xl text-primary-500"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 2, delay: 1 }}
@@ -44,7 +44,7 @@ export default function HeroSection() {
           >
             <Link
               href="#act-one"
-              className="bg-yellow-500 text-black  font-bold hover:bg-yellow-600 transition-color duration-300 ease-in-out border-0 rounded-xl p-4"
+              className="bg-primary-500 text-black  font-bold hover:bg-primary-600 transition-color duration-300 ease-in-out border-0 rounded-xl p-4"
             >
               Act One: The Land of Marona
             </Link>

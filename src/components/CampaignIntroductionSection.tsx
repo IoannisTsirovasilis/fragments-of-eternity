@@ -1,10 +1,10 @@
+import H2 from "./common/H2";
+
 export default function CampaignIntroductionSection() {
   return (
     <section className="py-16 px-6 bg-gray-800 text-white" id="act-one">
       <div className="container mx-auto">
-        <h2 className="text-4xl text-yellow-500 text-center mb-8">
-          The Land of Marona
-        </h2>
+        <H2 className="text-center">The Land of Marona</H2>
         <p className="leading-8 text-lg text-gray-300">
           In the land of Marona, a subcontinent rich with life and bounty, the
           people have long lived in harmony with the earth. Rolling plains
@@ -59,7 +59,7 @@ export default function CampaignIntroductionSection() {
           far from the safety of your home. What lies ahead is unknown, but you
           will face it together, as you always have.
         </p>
-        <p className="mt-8 leading-8 text-lg text-yellow-500 font-bold text-center">
+        <p className="mt-8 leading-8 text-lg text-primary-500 font-bold text-center">
           The fate of Marona—and perhaps more—may rest in your hands.
         </p>
       </div>
