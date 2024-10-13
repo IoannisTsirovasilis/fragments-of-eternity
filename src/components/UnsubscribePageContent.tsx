@@ -48,9 +48,7 @@ export default function UnsubscribePageContent() {
     <div className="min-h-screen flex items-center justify-center">
       {isLoading && <Loader />}
       <div className="text-center">
-        <h1 className="text-4xl font-medieval text-yellow-500 mb-8">
-          Unsubscribe
-        </h1>
+        <h1 className="text-4xl text-yellow-500 mb-8">Unsubscribe</h1>
         <p className="text-gray-300">{message}</p>
       </div>
     </div>

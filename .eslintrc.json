@@ -4,6 +4,7 @@
   "globals": {
     "React": true
   },
+  "ignorePatterns": ["*.js"],
   "rules": {
     "array-callback-return": "error",
     "no-await-in-loop": "warn",

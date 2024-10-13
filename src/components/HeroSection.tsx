@@ -10,7 +10,7 @@ export default function HeroSection() {
       <div className="relative flex items-center justify-center h-full">
         <div className="text-center">
           <motion.h1
-            className="text-7xl font-medieval text-yellow-500"
+            className="text-7xl text-yellow-500"
             initial={{ opacity: 0, y: -50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}

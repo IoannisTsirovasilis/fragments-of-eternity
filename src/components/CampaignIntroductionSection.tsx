@@ -2,7 +2,7 @@ export default function CampaignIntroductionSection() {
   return (
     <section className="py-16 px-6 bg-gray-800 text-white" id="act-one">
       <div className="container mx-auto">
-        <h2 className="text-4xl font-medieval text-yellow-500 text-center mb-8">
+        <h2 className="text-4xl text-yellow-500 text-center mb-8">
           The Land of Marona
         </h2>
         <p className="leading-8 text-lg text-gray-300">
