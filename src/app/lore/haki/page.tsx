@@ -22,7 +22,7 @@ export default function Haki() {
           <p>
             Haki is a mysterious force that exists within every living being, a
             manifestation of willpower that can transcend physical and magical
-            limitations. In the world of Celestara, Haki is the embodiment of
+            limitations. In the world of Nulmaris, Haki is the embodiment of
             spiritual energy that enables its users to achieve extraordinary
             feats—heightened awareness, impenetrable defense, and unmatched
             dominance. Unlike ordinary abilities, Haki cannot be acquired
