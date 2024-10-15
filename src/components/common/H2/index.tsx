@@ -3,7 +3,7 @@ export default function H2(props: {
   className?: string;
 }) {
   return (
-    <h1 className={`text-3xl text-primary-500 mb-8 ${props.className}`}>
+    <h1 className={`text-3xl text-primary-500 mb-4 ${props.className}`}>
       {props.children}
     </h1>
   );

@@ -31,7 +31,9 @@ export default function RootLayout({
           className={`${medievalSharp.className} antialiased bg-gray-800 text-white`}
         >
           <Navbar />
-          <div className="min-h-screen">{children}</div>
+          <div className="min-h-screen pt-20 md:pt-16 bg-gray-800">
+            {children}
+          </div>
           <SubscribeSection />
           <Footer />
         </body>

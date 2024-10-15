@@ -4,8 +4,8 @@ import H3 from "@/components/common/H3";
 
 export default function Haki() {
   return (
-    <section className="py-20 px-6">
-      <div className="container mx-auto flex flex-col gap-4">
+    <section>
+      <div className="flex flex-col gap-4 p-6">
         <H2 className="text-center">Haki</H2>
         <div>
           <H3>Disclaimer</H3>

@@ -3,7 +3,7 @@ import H4 from "@/components/common/H4";
 
 export default function ConquerorsHaki() {
   return (
-    <section className="py-20 px-6">
+    <section className="p-6">
       <H2 className="text-center">Conqueror&apos;s Haki</H2>
       <div className="flex flex-col gap-4">
         <p>

@@ -73,7 +73,7 @@ export default function SubscribeForm() {
   return (
     <form
       id="subscribe"
-      className="max-w-md mx-auto"
+      className="flex flex-col items-center gap-4"
       onKeyDown={(e: React.KeyboardEvent<HTMLFormElement>) => {
         if (e.code === "Enter") {
           e.preventDefault();
@@ -90,10 +90,17 @@ export default function SubscribeForm() {
         onChange={(e: any) =>
           setFormFields({ ...formFields, email: e.target.value })
         }
-        className="w-full p-3 rounded-lg text-gray-900"
+        className="w-full md:w-1/3 p-3 rounded-lg text-gray-900"
       />
+      <button
+        type="button"
+        onClick={handleSubmit}
+        className="w-full md:w-1/3 px-6 py-3 bg-primary-500 text-black font-bold rounded-lg hover:bg-primary-600 transition"
+      >
+        Subscribe
+      </button>
       {Object.keys(formErrors).length > 0 && (
-        <ul className="mt-4 list-disc px-4">
+        <ul className="list-disc">
           {Object.values(formErrors).map((error) => (
             <li key={error} className="text-red-500 text-sm text-left">
               {error}
@@ -102,17 +109,8 @@ export default function SubscribeForm() {
         </ul>
       )}
       {successMessage && (
-        <p className="text-green-500 text-sm text-left mt-4">
-          {successMessage}
-        </p>
+        <p className="text-green-500 text-sm text-left">{successMessage}</p>
       )}
-      <button
-        type="button"
-        onClick={handleSubmit}
-        className="mt-4 px-6 py-3 bg-primary-500 text-black font-bold rounded-lg hover:bg-primary-600 transition"
-      >
-        Subscribe
-      </button>
     </form>
   );
 }

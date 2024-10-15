@@ -4,7 +4,7 @@ import TiktokIcon from "./common/Tiktok";
 
 export default function footer() {
   return (
-    <footer className="flex flex-col gap-2 py-8 bg-gray-900 text-gray-400 text-center">
+    <footer className="flex flex-col gap-2 p-6 bg-gray-900 text-gray-400 text-center">
       <p>
         Centuries Echoing Legends Eventually Shape The Ancient Ruins Around.
       </p>

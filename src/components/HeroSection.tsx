@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export default function HeroSection() {
   return (
-    <section className="relative w-full h-screen py-16 px-6">
+    <section className="relative h-screen p-6">
       <div className="absolute inset-0 bg-black opacity-60"></div>
       <div className="relative flex items-center justify-center h-full">
         <div className="text-center">
@@ -19,7 +19,7 @@ export default function HeroSection() {
           </motion.h1>
 
           <motion.p
-            className="mt-4 text-lg text-gray-300"
+            className="mt-4 text-lg"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1.5, delay: 0.5 }}
@@ -44,7 +44,7 @@ export default function HeroSection() {
           >
             <Link
               href="#act-one"
-              className="bg-primary-500 text-black  font-bold hover:bg-primary-600 transition-color duration-300 ease-in-out border-0 rounded-xl p-4"
+              className="bg-primary-500 text-black font-bold hover:bg-primary-600 transition-color duration-300 ease-in-out border-0 rounded-xl p-4"
             >
               Act One: The Land of Marona
             </Link>

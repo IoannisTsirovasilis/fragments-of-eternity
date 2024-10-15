@@ -50,7 +50,7 @@ export default function UnsubscribePageContent() {
       {isLoading && <Loader />}
       <div className="text-center">
         <H1>Unsubscribe</H1>
-        <p className="text-gray-300">{message}</p>
+        <p>{message}</p>
       </div>
     </div>
   );
