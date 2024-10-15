@@ -5,7 +5,7 @@ import H3 from "@/components/common/H3";
 export default function Haki() {
   return (
     <section>
-      <div className="flex flex-col gap-4 p-6">
+      <div className="flex flex-col gap-4 pt-24 md:pt-20 px-6 pb-6">
         <H2 className="text-center">Haki</H2>
         <div>
           <H3>Disclaimer</H3>

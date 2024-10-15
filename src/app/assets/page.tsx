@@ -3,7 +3,7 @@ import H1 from "@/components/common/H1";
 
 export default function Assets() {
   return (
-    <section className="flex flex-col p-6">
+    <section className="flex flex-col pt-24 md:pt-20 px-6 pb-6">
       <H1 className="text-center">Assets</H1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <AssetLink

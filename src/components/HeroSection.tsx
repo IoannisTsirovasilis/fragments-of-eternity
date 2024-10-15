@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export default function HeroSection() {
   return (
-    <section className="relative h-screen p-6">
+    <section className="relative h-screen py-20 md:py-16 px-6">
       <div className="absolute inset-0 bg-black opacity-60"></div>
       <div className="relative flex items-center justify-center h-full">
         <div className="text-center">

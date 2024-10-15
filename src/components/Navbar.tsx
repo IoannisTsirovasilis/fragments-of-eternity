@@ -5,7 +5,7 @@ export default function Navbar() {
     <nav className="bg-gray-900 p-4 fixed w-full z-10 top-0 left-0">
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-primary-500 text-2xl">
-          <Link href="/">Fragments of Eternity</Link>
+          <Link href="/">FOE</Link>
         </div>
         <div>
           <Link

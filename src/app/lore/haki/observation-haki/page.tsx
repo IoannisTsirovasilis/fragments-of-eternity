@@ -3,7 +3,7 @@ import H4 from "@/components/common/H4";
 
 export default function ObservationHaki() {
   return (
-    <section className="p-6">
+    <section className="pt-24 md:pt-20 px-6 pb-6">
       <H2 className="text-center">Observation Haki</H2>
       <div className="flex flex-col gap-4">
         <p>

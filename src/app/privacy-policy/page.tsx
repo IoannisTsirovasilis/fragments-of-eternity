@@ -5,7 +5,7 @@ import H1 from "@/components/common/H1";
 
 export default function PrivacyPolicy() {
   return (
-    <section className="p-6 space-y-2">
+    <section className="pt-24 md:pt-20 px-6 pb-6 space-y-2">
       <H1>Privacy Policy</H1>
       <p>Updated at 2024-09-15</p>
 
