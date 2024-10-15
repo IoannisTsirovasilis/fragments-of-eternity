@@ -1,10 +1,10 @@
 import AssetLink from "@/components/common/AssetLink";
-import H1 from "@/components/common/H1";
+import H2 from "@/components/common/H2";
 
 export default function Assets() {
   return (
     <section className="flex flex-col pt-24 md:pt-20 px-6 pb-6">
-      <H1 className="text-center">Assets</H1>
+      <H2 className="text-center">Assets</H2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <AssetLink
           title="The Land of Marona"
